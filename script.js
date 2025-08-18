@@ -7,7 +7,7 @@ const cityHide = document.querySelector('.city-hide');
 
 search.addEventListener('click', () => {
    
-    const APIKey = '6a644fd0d2fe3da5ee4745ec58fd909d';
+    const APIKey = 'Your API Key';
     const city = document.querySelector('.search-box input').value;
 
     if (city === '')
@@ -132,4 +132,5 @@ search.addEventListener('click', () => {
             }
         }
     });
+
 });
